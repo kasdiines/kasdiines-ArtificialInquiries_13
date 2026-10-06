@@ -4,49 +4,92 @@
 
 **Ex13 - Setting Up the Example** consiste à étudier une œuvre choisie comme exemple afin de comprendre pourquoi elle est considérée comme pertinente.
 
-L'exercice permet d'observer plusieurs dimensions de cette œuvre :
+Pour cet exercice, j'ai choisi **Wikipédia**, une encyclopédie collaborative et libre.
 
+Ce choix permet d'étudier plusieurs dimensions :
+
+- le contexte dans lequel Wikipédia a été créé ;
+- les pratiques mises en œuvre par les contributeurs ;
+- les valeurs défendues par le projet ;
+- les standards et règles utilisés pour produire et vérifier les contenus.
+
+L'objectif est ensuite de transformer cette analyse en un outil numérique permettant de structurer les informations recueillies.
+
+## 2. L'œuvre choisie : Wikipédia
+
+Wikipédia est un projet d'encyclopédie collaborative accessible sur Internet. Les contenus sont produits et modifiés par des contributeurs.
+
+Je considère Wikipédia comme un exemple intéressant pour cet exercice car son fonctionnement repose sur la collaboration, le partage des connaissances et des règles permettant d'organiser et de contrôler la qualité des contenus.
+
+### Contexte
+
+Wikipédia s'inscrit dans le développement des projets collaboratifs sur Internet. Son fonctionnement repose sur la participation de nombreux utilisateurs qui peuvent créer, modifier et améliorer les articles.
+
+### Pratiques
+
+Les principales pratiques que je peux identifier sont :
+
+- la rédaction collaborative ;
+- la modification des articles ;
+- la vérification des informations ;
+- l'utilisation de sources ;
+- les échanges entre contributeurs ;
+- la discussion autour des modifications.
+
+### Valeurs
+
+Les valeurs que je peux associer à Wikipédia sont notamment :
+
+- le partage des connaissances ;
+- l'accès libre à l'information ;
+- la collaboration ;
+- la vérifiabilité des informations ;
+- la neutralité dans la présentation des sujets.
+
+### Standards professionnels
+
+Même si Wikipédia n'est pas une organisation professionnelle classique, son fonctionnement repose sur différentes règles et pratiques concernant la qualité de l'information.
+
+Par exemple :
+
+- citer les sources ;
+- permettre la vérification des informations ;
+- respecter certaines règles éditoriales ;
+- maintenir une organisation cohérente des articles.
+
+## 3. Objectif de l'outil numérique
+
+L'objectif est de transformer l'exercice d'analyse en un outil numérique permettant de créer une fiche pour une œuvre exemplaire.
+
+Pour Wikipédia, l'outil doit permettre de renseigner :
+
+- le nom de l'œuvre ;
 - son contexte ;
-- les pratiques qu'elle met en œuvre ;
-- les valeurs qu'elle représente ;
-- les standards professionnels auxquels elle peut être associée.
+- ses pratiques ;
+- ses valeurs ;
+- ses standards professionnels ;
+- les preuves permettant de justifier les observations ;
+- les sources utilisées ;
+- une analyse personnelle permettant d'expliquer les différents liens.
 
-L'objectif est de transformer cet exercice d'enquête en un outil numérique permettant de structurer ces informations.
+L'objectif est donc de passer d'une analyse principalement textuelle à une représentation structurée des informations.
 
-## 2. Objectif de l'outil numérique
-
-L'outil doit permettre de créer une fiche pour une œuvre exemplaire et de renseigner les différentes informations liées à son analyse.
-
-Pour chaque œuvre, il est possible de prévoir :
-
-- le titre ;
-- l'auteur ou le créateur ;
-- une description ;
-- le contexte ;
-- les pratiques identifiées ;
-- les valeurs associées ;
-- les standards professionnels concernés ;
-- les preuves ou extraits utilisés ;
-- les sources utilisées.
-
-L'objectif est de passer d'une analyse sous forme de texte à une représentation plus structurée des informations.
-
-## 3. Données principales
+## 4. Données principales
 
 Le modèle de données contient plusieurs éléments :
 
-- **Œuvre** : l'exemple étudié ;
+- **Œuvre** : l'exemple étudié, ici Wikipédia ;
 - **Pratique** : une pratique mise en œuvre par l'œuvre ;
-- **Valeur** : une valeur représentée par l'œuvre ;
-- **Standard professionnel** : un standard auquel l'œuvre peut être associée ;
+- **Valeur** : une valeur représentée ou défendue par l'œuvre ;
+- **Standard professionnel** : une règle ou un standard associé au fonctionnement de l'œuvre ;
 - **Preuve** : un extrait ou une source permettant de justifier une observation ;
-- **Analyse** : l'interprétation et la justification des liens entre l'œuvre et les différents éléments.
+- **Analyse** : l'interprétation permettant d'expliquer les relations entre l'œuvre et les différents éléments.
 
 Une œuvre peut être associée à plusieurs pratiques, valeurs, standards professionnels et preuves.
 
-## 4. Solution technique
+## 5. Solution technique
 
-Le modèle de données est représenté avec un diagramme de classes réalisé avec **Mermaid**.
+Le modèle de données est représenté avec un **diagramme de classes réalisé avec Mermaid**.
 
 Le diagramme se trouve dans le fichier :
 
@@ -61,21 +104,21 @@ L'installation repose sur :
 - MySQL ;
 - Omeka S.
 
-## 5. Fonctionnement envisagé
+## 6. Fonctionnement envisagé
 
 Le fonctionnement de l'outil est le suivant :
 
-1. Choisir une œuvre exemplaire.
+1. Sélectionner l'œuvre étudiée.
 2. Renseigner ses informations générales.
 3. Décrire son contexte.
 4. Identifier les pratiques associées.
 5. Identifier les valeurs représentées.
 6. Identifier les standards professionnels concernés.
-7. Ajouter des preuves et des sources.
+7. Ajouter les preuves et les sources.
 8. Ajouter une analyse permettant de justifier les observations.
 9. Consulter les informations sous une forme structurée.
 
-## 6. Organisation du repository
+## 7. Organisation du repository
 
 ```text
 ArtificialInquiries_13/
@@ -85,8 +128,14 @@ ArtificialInquiries_13/
 └── diagram_class.md
 ```
 
-## 7. Évolution possible
+## 8. Évolution possible
 
-Dans une première version, l'outil peut permettre de renseigner les informations principales de l'exercice.
+Dans une première version, l'outil permet de renseigner les principales informations concernant Wikipédia et son fonctionnement.
 
-Il pourra ensuite être amélioré avec une recherche dans les œuvres, une consultation des sources et une meilleure organisation des relations entre les pratiques, les valeurs, les standards professionnels et les preuves.*
+Par la suite, il pourrait être amélioré afin de permettre :
+
+- la recherche dans les différentes œuvres étudiées ;
+- l'ajout de nouvelles œuvres exemplaires ;
+- la consultation des sources associées ;
+- la comparaison des pratiques et des valeurs entre plusieurs œuvres ;
+- une meilleure organisation des preuves et des analyses.
