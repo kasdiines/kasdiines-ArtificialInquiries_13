@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Oeuvre {
         +int id
@@ -48,3 +49,4 @@ classDiagram
     Analyse "0..*" --> "0..1" Valeur : analyse
     Analyse "0..*" --> "0..1" StandardProfessionnel : analyse
     Analyse "1" --> "1..*" Preuve : s'appuie sur
+```
