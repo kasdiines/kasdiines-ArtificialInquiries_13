@@ -1,4 +1,5 @@
 # Artificial Inquiries — Exercice 13
+<img width="759" height="283" alt="image" src="https://github.com/user-attachments/assets/29e4ff33-8a8f-43c1-a331-083fbcd5953d" />
 
 ## 1. Présentation de l'exercice
 
