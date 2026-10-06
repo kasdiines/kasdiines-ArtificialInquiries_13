@@ -118,17 +118,7 @@ Le fonctionnement de l'outil est le suivant :
 8. Ajouter une analyse permettant de justifier les observations.
 9. Consulter les informations sous une forme structurée.
 
-## 7. Organisation du repository
-
-```text
-ArtificialInquiries_13/
-│
-├── README.md
-│
-└── diagram_class.md
-```
-
-## 8. Évolution possible
+## 7. Évolution possible
 
 Dans une première version, l'outil permet de renseigner les principales informations concernant Wikipédia et son fonctionnement.
 
